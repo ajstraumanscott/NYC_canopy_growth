@@ -13,8 +13,8 @@ This repository contains the final project for the Data 604 course at CUNY SPS, 
 ## Files in the Repository
 
 1. [strauman-scott_nyc_tree_canopy_simulation.pdf](githublink here) - A detailed document outlining the simulation, methodology, and findings.
-2. [strauman-scott_nyc_tree_canopy_simulation.ipynb](github link here) - The Jupyter Notebook containing the simulation code.
-3. [strauman-scott_nyc_tree_canopy_slidedeck.pdf](github link here) - The slidedeck presentation summarizing the project and its findings.
+2. [strauman-scott_nyc_tree_canopy_simulation.ipynb](https://github.com/annejscott/NYC_canopy_growth/raw/main/strauman-scott_nyc_tree_canopy_simulation.ipynb) - The Jupyter Notebook containing the simulation code.
+3. [strauman-scott_nyc_tree_canopy_slidedeck.pdf](https://github.com/annejscott/NYC_canopy_growth/blob/main/strauman-scott_nyc_tree_canopy_slides.pdf) - The slidedeck presentation summarizing the project and its findings.
 
 ## Assignment Instructions
 
