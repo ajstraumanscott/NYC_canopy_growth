@@ -1,23 +1,139 @@
 name: canopy_venv
 channels:
   - defaults
+  - conda-forge
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
+  - affine=2.4.0
+  - blas=1.0
+  - blosc=1.21.3
+  - boost-cpp=1.82.0
+  - bottleneck=1.4.2
+  - branca=0.8.1
+  - brotli-python=1.0.9
   - bzip2=1.0.8
+  - c-ares=1.34.4
   - ca-certificates=2025.2.25
+  - cairo=1.16.0
+  - certifi=2025.1.31
+  - cfitsio=3.470
+  - charset-normalizer=3.4.1
+  - click=8.1.8
+  - click-plugins=1.1.1
+  - cligj=0.7.2
+  - contextily=1.6.2
+  - cyrus-sasl=2.1.27
+  - expat=2.7.0
+  - folium=0.19.5
+  - fontconfig=2.14.1
+  - freetype=2.12.1
+  - freexl=2.0.0
+  - geographiclib=2.0
+  - geopandas=1.0.1
+  - geopandas-base=1.0.1
+  - geopy=2.4.1
+  - geos=3.10.6
+  - geotiff=1.7.0
+  - gettext=0.21.1
+  - giflib=5.2.2
+  - glib=2.78.4
+  - glib-tools=2.78.4
+  - h2=4.2.0
+  - hdf4=4.2.13
+  - hdf5=1.12.1
+  - hpack=4.1.0
+  - hyperframe=6.1.0
+  - icu=73.2
+  - jedi=0.19.2
+  - joblib=1.4.2
+  - jpeg=9e
+  - json-c=0.16
+  - kealib=1.5.0
+  - krb5=1.20.1
+  - lcms2=2.16
+  - lerc=4.0.0
+  - libboost=1.82.0
+  - libcurl=8.12.1
+  - libcxx=14.0.6
+  - libdeflate=1.22
+  - libedit=3.1.20191231
+  - libev=4.33
+  - libexpat=2.7.0
   - libffi=3.4.4
+  - libgdal=3.6.2
+  - libgfortran=5.0.0
+  - libgfortran5=11.3.0
+  - libglib=2.78.4
+  - libiconv=1.18
+  - libkml=1.3.0
+  - libnetcdf=4.8.1
+  - libnghttp2=1.57.0
+  - libntlm=1.8
+  - libopenblas=0.3.21
+  - libpng=1.6.39
+  - libpq=17.4
+  - libspatialite=5.1.0
+  - libssh2=1.11.1
+  - libtiff=4.5.1
+  - libwebp-base=1.5.0
+  - libxml2=2.13.5
+  - libzip=1.8.0
+  - llvm-openmp=14.0.6
+  - lz4-c=1.9.4
+  - mapclassify=2.8.1
+  - matplotlib=3.10.0
+  - matplotlib-base=3.10.0
+  - mercantile=1.2.1
+  - minizip=4.0.3
   - ncurses=6.4
-  - openssl=3.0.16
+  - networkx=3.4.2
+  - nspr=4.35
+  - nss=3.89.1
+  - numexpr=2.10.1
+  - numpy=2.0.1
+  - numpy-base=2.0.1
+  - openjpeg=2.5.2
+  - openldap=2.6.4
+  - openssl=3.4.1
+  - pandas=2.2.3
+  - patsy=1.0.1
+  - pcre2=10.42
   - pip=25.0
+  - pixman=0.40.0
+  - poppler=24.09.0
+  - poppler-data=0.4.12
+  - proj=9.3.1
+  - pyogrio=0.10.0
+  - pyproj=3.6.1
+  - pysocks=1.7.1
   - python=3.10.16
+  - python-tzdata=2025.2
+  - python_abi=3.10
+  - qhull=2020.2
+  - rasterio=1.4.3
   - readline=8.2
+  - requests=2.32.3
+  - scikit-learn=1.6.1
+  - scipy=1.15.2
+  - seaborn=0.13.2
+  - seaborn-base=0.13.2
   - setuptools=75.8.0
+  - shapely=2.0.6
   - sqlite=3.45.3
+  - statsmodels=0.14.4
+  - threadpoolctl=3.6.0
+  - tiledb=2.3.3
   - tk=8.6.14
+  - uriparser=0.9.7
+  - urllib3=2.3.0
   - wheel=0.45.1
+  - xerces-c=3.2.4
+  - xyzservices=2025.1.0
   - xz=5.6.4
   - zlib=1.2.13
+  - zstandard=0.23.0
+  - zstd=1.5.6
   - pip:
       - anyio==3.7.1
       - appnope==0.1.3
@@ -47,7 +163,6 @@ dependencies:
       - ipython-genutils==0.2.0
       - ipywidgets==8.0.7
       - isoduration==20.11.0
-      - jedi==0.18.2
       - jinja2==3.1.2
       - jsonpointer==2.4
       - jsonschema==4.18.0
@@ -63,7 +178,6 @@ dependencies:
       - jupyterlab-widgets==3.0.8
       - kiwisolver==1.4.4
       - markupsafe==2.1.3
-      - matplotlib==3.7.2
       - matplotlib-inline==0.1.6
       - mistune==3.0.1
       - nbclassic==1.0.0
@@ -73,10 +187,8 @@ dependencies:
       - nest-asyncio==1.5.6
       - notebook==6.5.4
       - notebook-shim==0.2.3
-      - numpy==1.25.1
       - overrides==7.3.1
       - packaging==23.1
-      - pandas==2.0.3
       - pandocfilters==1.5.0
       - parso==0.8.3
       - pexpect==4.8.0
